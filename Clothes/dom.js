@@ -6,7 +6,7 @@ const DOMSelectors = {
     nature: document.getElementById("nature"),
     home: document.getElementById("home"),
     form: document.getElementById("filter-btn"),
-    cards: document.querySelector(".cards"),
+    cards: document.querySelector(".card"),
     foodName: document.querySelector(".food-name"),
     foodImage: document.querySelector(".card-img"),
     foodPrice: document.querySelector(".price")
