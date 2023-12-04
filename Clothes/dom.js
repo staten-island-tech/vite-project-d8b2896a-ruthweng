@@ -1,5 +1,5 @@
 const DOMSelectors = {
-    container: document.getElementById("container"),
+    container: document.querySelector("container"),
     People: document.getElementById("People"),
     sweets: document.getElementById("Sweets"),
     celebrity: document.getElementById("celebrities"),
