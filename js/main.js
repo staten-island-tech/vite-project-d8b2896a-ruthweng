@@ -25,7 +25,7 @@ function addcards (arr){
   </div>
     `
 )})};
-addcards(cabbage)
+addcards(cabbage);
 console.log(cabbage)
 
 function removeCards(){
@@ -42,8 +42,8 @@ const filterButtons = (buttons.forEach((buttons) => buttons.addEventListener("cl
   addcards(newArr);
 })))
 
-DOMSelectors.form.addEventListener("click", function(event){
-  event.preventDefault();
-  removeCards();
-  filterButtons();
-})
+// DOMSelectors.form.addEventListener("click", function(event){
+//   event.preventDefault();
+//   removeCards();
+//   filterButtons();
+// })
