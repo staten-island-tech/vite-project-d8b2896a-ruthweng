@@ -2,7 +2,7 @@ const DOMSelectors = {
     container: document.querySelector("container"),
     People: document.getElementById("People"),
     sweets: document.getElementById("Sweets"),
-    celebrity: document.getElementById("celebrities"),
+    celebrity: document.getElementById("celebrity"),
     nature: document.getElementById("nature"),
     home: document.getElementById("home"),
     form: document.getElementById("filter-btn"),
