@@ -26,7 +26,7 @@ function addcards (arr){
     `
 )})};
 addcards(cabbage);
-console.log(cabbage)
+
 
 function removeCards(){
   const clear = document.getElementById("container");
