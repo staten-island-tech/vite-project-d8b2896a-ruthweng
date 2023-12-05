@@ -1,4 +1,4 @@
-import './style.css';
+import '../css/style.css';
 import { cabbage } from './cabbage';
 import { DOMSelectors } from './dom';
 
