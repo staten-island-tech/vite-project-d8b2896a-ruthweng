@@ -21,7 +21,7 @@ const cabbage = [
     {
         name: "Country Home Baby",
         type: "home",
-        img: "https://i.ebayimg.com/images/g/deEAAOSw6URjc4ME/s-l1600.jpg",
+        img: "https://vader-prod.s3.amazonaws.com/1544564624-dark-haired-cabbage-patch-kid-doll-1544564535.jpg",
         price: "$79.99",
     },
  
@@ -54,7 +54,7 @@ const cabbage = [
     {
         name: "Sodie Soda",
         type: "sweets",
-        img: "https://i.ebayimg.com/images/g/EUQAAOSww9tiSNXl/s-l1600.jpg",
+        img: "https://i.pinimg.com/originals/33/18/4d/33184d308ea449c2fa2c89858cb2c853.jpg",
         price: "$30.99",
     },
    
@@ -85,7 +85,7 @@ const cabbage = [
     {
         name:"Bessy Loraine ",
         type: "people",
-        img:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FCabbage-Collection-Barnyard-Friends-Humphrey%2Fdp%2FB0BKYVFGCK&psig=AOvVaw3JPXCufw19Ee5MlMj0KH4e&ust=1701195277662000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMixvoLk5IIDFQAAAAAdAAAAABAL",
+        img:"https://i.pinimg.com/originals/cb/26/90/cb269004467ad17c6418e79236c8bfdb.jpg",
         price:"$69.99",
      
     },
