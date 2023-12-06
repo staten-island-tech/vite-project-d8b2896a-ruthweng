@@ -121,8 +121,9 @@ h5 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   transition: all .1s ease;
   box-shadow: 0 0 0 0
+  
 }
-.filterButton{
+.filterbuttons{
   justify-content: space-evenly;
   background: var(--buttons);
   font-size: var(--h5);

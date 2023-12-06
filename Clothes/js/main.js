@@ -7,7 +7,8 @@ document.getElementById("Theme").addEventListener("click", function(){
     if(document.body.classList.contains("lightmode")){
       document.body.classList.add("darkmode");
        document.body.classList.remove("lightmode");
-     } else{
+     } 
+     else {
       document.body.classList.add("lightmode")
       document.body.classList.remove("darkmode")
      }
@@ -27,23 +28,25 @@ function addcards (arr){
 )})};
 addcards(cabbage);
 
-
 function removeCards(){
   const clear = document.getElementById("container");
   clear.insertAdjacentElement = ""
 };
+
 //buttons 
 let buttons = document.querySelectorAll(".filterButton")
 
 const filterButtons = (buttons.forEach((buttons) => buttons.addEventListener("click", function(){
   let type = buttons.textContent;
-  let newArr = cabbage.filter((food) => food.type.includes(type));
+  let newArr = cabbage.filter((cabbage) => cabbage.type.includes(type));
   removeCards();
   addcards(newArr);
 })))
 
-// DOMSelectors.form.addEventListener("click", function(event){
-//   event.preventDefault();
-//   removeCards();
-//   filterButtons();
-// })
+
+
+DOMSelectors.form.addEventListener("click", function(event){
+  event.preventDefault();
+  removeCards();
+  filterButtons();
+})
