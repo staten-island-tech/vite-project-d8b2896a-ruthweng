@@ -8,126 +8,133 @@ body,
 }
 :root {
    
-  /*colors*/
-   --dark-blue: #12376f;
-   --light-pink: #f0d1c8;
-   --light-green:#B2AC88;
-   --off-white: #FAF9F6;
-   --black: #000;
-   --grey: #e6e6e6; 
-   --dark-pink: #aa104a;
+   /*colors*/
+    --dark-blue: #12376f;
+    --light-blue: #b8e2f4;
+    --light-pink: #ffb6c1;
+    --off-white: #FAF9F6;
+    --black: #000;
+    --grey: #e6e6e6; 
+    --dark-purple: #e090df;
 
 /*Intentions*/
---primary: var(--light-pink)
---secondary: var(--light-green);
+--primary: var(--light-blue)
+--secondary: var(--light-pink);
+
 
 /*Text Size*/
---h1: 7.594rem;
---h2: 5.063rem;
---h3: 3.375rem;
---h4: 2.25rem;
---h5: 1.5rem;
+    --h1: 7.594rem;
+    --h2: 5.063rem;
+    --h3: 3.375rem;
+    --h4: 2.25rem;
+    --h5: 1.5rem;
+    --h6: 1rem;
 }
+
 
 .lightmode {
-  --primary: var(--light-pink);
-  --secondary: var(--light-green);
-  --card: var(--light-green);
-  --h1color: var(--black);
-  --buttons: var(--off-white)
+    --primary: var(--light-blue);
+    --secondary: var(--light-pink);
+    --card: var(--light-pink);
+    --h1color: var(--black);
+    --buttons: var(--off-white)
 }
-
 .darkmode {
-  --primary:var(--dark-pink);
-  --secondary: var(--black);
-  --card: var(--off-white);
-  --h1color: var(--grey);
-  --buttons: var(--off-white)
+    --primary:var(--dark-purple);
+    --secondary: var(--black);
+    --card: var(--off-white);
+    --h1color: var(--grey);
+    --buttons: var(--off-white)
 }
 body {
-  background-color: var(--primary);
+    background-color: var(--primary);
 }
 
 .header-text {
-  font-size: var(--h1);
-  padding: 0;
-  margin: 1rem auto;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: var(--h1);
+    padding: 0;
+    margin: 1rem auto;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h1 {
-  font-size: var(--h1);
-  color: var(--h1color);
+    font-size: var(--h1);
+    color: var(--h1color);
 }
 h2 {
-  font-size: var(--h2);
+    font-size: var(--h2);
 }
 h3 {
-  font-size: var(--h3);
+    font-size: var(--h3);
 }
 h4 {
-  font-size: var(--h4);
+    font-size: var(--h4);
 }
 h5 {
-  font-size: var(--h5);
+    font-size: var(--h5);
 }
-
-h1, 
+h6 {
+    font-size: var(--h6);
+}
+h1,
 h2,
 h3,
 h4,
-h5 {
-  text-align: center;
+h5,
+h6 {
+    text-align: center;
 }
-
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem auto;
 }
 .card {
-  height: 50vh;
-  width: 20vw;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  margin: 1rem auto;
-  background-color: var(--card);
-  border-radius: 1rem;
-  transition: all 0.3s;
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 1rem auto;
+    background-color: var(--card);
+    border-radius: 1rem;
+    transition: all 0.3s;
 }
 .card:hover{
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 .card-img{
-  height: 75%;
-  width: 100%;
-  border-radius: 1rem;
-  object-fit: cover;
+    height: 75%;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
 }
 #container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10rem;
 }
 
 .buttons {
-  padding: 1rem auto;
-  margin: 1rem 1rem 1rem auto;
-  display: flex;
-  justify-content: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  transition: all .1s ease;
-  box-shadow: 0 0 0 0
+    padding: 1rem auto;
+    margin: 1rem 1rem 1rem auto;
+    display: flex;
+    justify-content: center;
+    
 }
 .filterButton{
-  justify-content: space-evenly;
-  background: var(--buttons);
-  font-size: var(--h5);
-  height: auto;
-  width: auto;
-  margin: 1rem, auto;
-  border-radius: 1rem;
+    justify-content: space-evenly;
+    background: var(--buttons);
+    font-size: var(--h5);
+    height: auto;
+    width: auto;
+    margin: 1rem, auto;
+    border-radius: 2rem;
 }
