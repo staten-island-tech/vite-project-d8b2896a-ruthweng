@@ -1,4 +1,4 @@
-const cabbage = [
+const Menu = [
     {
         name:"Jojo Siwa",
         type: ["celebrity"],
@@ -132,4 +132,4 @@ const cabbage = [
  ];
  
  
- export { cabbage };
+ export { Menu };

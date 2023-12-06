@@ -5,8 +5,8 @@ const DOMSelectors = {
     celebrity: document.getElementById("celebrity"),
     nature: document.getElementById("nature"),
     home: document.getElementById("home"),
-    form: document.getElementById("filter-btn"),
-    cards: document.querySelector(".cards"),
+    form: document.querySelectorAll("filter-btn"),
+    cards: document.querySelectorAll(".cards"),
     foodName: document.querySelector(".food-name"),
     foodImage: document.querySelector(".card-img"),
     foodPrice: document.querySelector(".price")
