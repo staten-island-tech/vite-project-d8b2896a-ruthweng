@@ -10,16 +10,16 @@ body,
    
    /*colors*/
     --dark-blue: #12376f;
-    --light-pink: #f0d1c8;
-    --light-green:#B2AC88;
+    --light-blue: #b8e2f4;
+    --light-pink: #ffb6c1;
     --off-white: #FAF9F6;
     --black: #000;
     --grey: #e6e6e6; 
     --dark-purple: #e090df;
 
 /*Intentions*/
---primary: var(--light-pink)
---secondary: var(--light-green);
+--primary: var(--light-blue)
+--secondary: var(--light-pink);
 
 
 /*Text Size*/
@@ -33,9 +33,9 @@ body,
 
 
 .lightmode {
-    --primary: var(--light-pink);
-    --secondary: var(--light-green);
-    --card: var(--light-green);
+    --primary: var(--light-blue);
+    --secondary: var(--light-pink);
+    --card: var(--light-pink);
     --h1color: var(--black);
     --buttons: var(--off-white)
 }
