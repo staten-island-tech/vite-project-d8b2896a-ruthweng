@@ -30,7 +30,7 @@ document.getElementById("Theme").addEventListener("click", function(){
  });
 
 //buttons 
-let buttons = document.querySelectorAll(".filterButton")
+let buttons = document.querySelectorAll("#people, #sweets, #celebrity, #nature, #home")
 
 const filterButtons = (buttons.forEach((buttons) => buttons.addEventListener("click", function(){
   let type = buttons.textContent;
