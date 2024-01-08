@@ -6,8 +6,12 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+body {
+    background-color: var(--primary);
+}
+
 :root {
-   
    /*colors*/
     --dark-blue: #12376f;
     --light-blue: #b8e2f4;
@@ -16,50 +20,16 @@ body,
     --black: #000;
     --grey: #e6e6e6; 
     --dark-purple: #e090df;
-
-/*Intentions*/
---primary: var(--light-blue)
---secondary: var(--light-pink);
-
-
-/*Text Size*/
+    /*Intentions*/
+    --primary: var(--light-blue)
+    --secondary: var(--light-pink);
+    /*Text Size*/
     --h1: 7.594rem;
     --h2: 5.063rem;
     --h3: 3.375rem;
     --h4: 2.25rem;
     --h5: 1.5rem;
     --h6: 1rem;
-}
-
-
-.lightmode {
-    --primary: var(--light-blue);
-    --secondary: var(--light-pink);
-    --card: var(--light-pink);
-    --h1color: var(--black);
-    --buttons: var(--off-white)
-}
-.darkmode {
-    --primary:var(--dark-purple);
-    --secondary: var(--black);
-    --card: var(--off-white);
-    --h1color: var(--grey);
-    --buttons: var(--off-white)
-}
-body {
-    background-color: var(--primary);
-}
-
-.header-text {
-    font-size: var(--h1);
-    padding: 0;
-    margin: 1rem auto;
-}
-.app {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 h1 {
@@ -89,52 +59,70 @@ h5,
 h6 {
     text-align: center;
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem auto;
+
+.lightmode {
+    --primary: var(--light-blue);
+    --secondary: var(--light-pink);
+    --card: var(--light-pink);
+    --h1color: var(--black);
+    --buttons: var(--off-white)
 }
+
+.darkmode {
+    --primary:var(--dark-purple);
+    --secondary: var(--black);
+    --card: var(--off-white);
+    --h1color: var(--grey);
+    --buttons: var(--off-white)
+}
+
+.header-text {
+    font-size: var(--h1);
+    margin: 2rem auto;
+}
+
+#container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
 .card {
     height: 50vh;
     width: 20vw;
-    display: flex;
+    display: flex;  
     flex-direction: column;
     justify-items: center;
-    margin: 1rem auto;
+    margin: 2rem;
     background-color: var(--card);
     border-radius: 1rem;
     transition: all 0.3s;
 }
+
 .card:hover{
     transform: scale(1.1);
 }
+
 .card-img{
     height: 75%;
     width: 100%;
     border-radius: 1rem;
     object-fit: cover;
 }
-#container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 10rem;
-}
 
 .buttons {
-    padding: 1rem auto;
-    margin: 1rem 1rem 1rem auto;
     display: flex;
     justify-content: center;
-    
 }
-.filterButton{
+
+.filterButton, #Theme{
     justify-content: space-evenly;
     background: var(--buttons);
     font-size: var(--h5);
     height: auto;
-    width: auto;
-    margin: 1rem, auto;
-    border-radius: 2rem;
+    width: 10rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
 }

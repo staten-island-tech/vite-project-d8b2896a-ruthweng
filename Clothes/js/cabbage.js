@@ -1,16 +1,16 @@
 const Menu = [
     {
-        name:"Jojo Siwa",
+        name:"Blair Weng",
         type: ["celebrity"],
         img:"https://m.media-amazon.com/images/I/81fvEwFJJhL._AC_SL1500_.jpg",
-        price:"$64.99",
+        price:"$10000.99",
     },
  
  
     {
-        name: "Ellen",
+        name: "Kelly Osbourne",
         type: ["celebrity"],
-        img: "https://scontent-lga3-2.xx.fbcdn.net/v/t1.18169-9/30712835_1678610875560221_8182031301152425809_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=roe9RL24IAUAX-PpwX4&_nc_ht=scontent-lga3-2.xx&oh=00_AfBQ4f76hmc5RFre_ezTGzIlGnjIaJDPfpMJorzL9LP7Sg&oe=6594F838",
+        img: "https://www.ocregister.com/wp-content/uploads/2017/04/0423_fea_ocr-l-osbourne1-1.jpg?w=525",
         price: "$1,000",
     },
  
@@ -108,7 +108,7 @@ const Menu = [
         name:"Joanne Chen",
         type: ["people"],
         img:"https://cabbagepatchkids.com/cdn/shop/products/b8e5406882f057465d63d601e89f6ea4_2048x.progressive.jpg?v=1635178987",
-        price:"$59.99",
+        price:"$200000.99",
        
     },
  
