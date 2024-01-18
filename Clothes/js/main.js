@@ -36,6 +36,7 @@ document.getElementById("Theme").addEventListener("click", function (event) {
   }
 });
 
+//buttons
 let btns = DOMSelectors.buttons;
 
 const newArrs = {
@@ -54,6 +55,18 @@ const newArrs = {
   home: Menu.filter((food) => food.type.includes("home")).map((food) => food),
 };
 console.log(newArrs);
+
+/*
+//buttons 
+let buttons = document.querySelectorAll("#people, #sweets, #celebrity, #nature, #home")
+
+const filterButtons = (buttons.forEach((buttons) => buttons.addEventListener("click", function(){
+  let type = buttons.textContent;
+  let newArr = Menu.filter((food) => food.type.includes(type));
+  removeCards();
+  addcards(newArr);
+})))
+*/
 
 function filterButtons() {
   btns.forEach((button) =>
@@ -92,3 +105,4 @@ function filterButtons() {
   );
 }
 filterButtons();
+
